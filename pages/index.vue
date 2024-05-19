@@ -1,14 +1,17 @@
 <script setup></script>
 <template>
   <!-- test -->
-  <div>
-    Hello!!!!!!
-    Hello!!!!!!
-    Hello!!!!!!
-    Hello!!!!!!
-    Hello!!!!!!
-  </div>
+  <div>123456789</div>
+  <div>123456789</div>
+  <div>123456789</div>
+  <div>123456789</div>
+  <div>123456789</div>
+  <div>123456789</div>
 </template>
 Hello!!!!!!
 Hello!!!!!!
-<style scoped></style>
+<style scoped>
+  div{
+    color: red;
+  }
+    </style>
