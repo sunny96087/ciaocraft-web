@@ -1,7 +1,16 @@
 <script setup></script>
 <template>
   <!-- test -->
-  <div></div>
+  <div>123456789</div>
+  <div>123456789</div>
+  <div>123456789</div>
+  <div>123456789</div>
+  <div>123456789</div>
+  <div>123456789</div>
 </template>
 
-<style scoped></style>
+<style scoped>
+  div{
+    color: red;
+  }
+    </style>
