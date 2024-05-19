@@ -8,8 +8,6 @@
   <div>123456789</div>
   <div>123456789</div>
 </template>
-Hello!!!!!!
-Hello!!!!!!
 <style scoped>
   div{
     color: red;
