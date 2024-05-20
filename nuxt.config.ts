@@ -6,20 +6,21 @@ export default defineNuxtConfig({
 
     public: {
       // 兩端都能使用 -> $config.public
-    },
+    }
   },
-  css: ["@/assets/css/main.css"],
+  css: ['@/assets/css/main.css'],
 
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
-    },
+      autoprefixer: {}
+    }
   },
   components: [
     {
-      path: "~/components",
-      pathPrefix: false,
-    },
+      path: '~/components',
+      pathPrefix: false
+    }
   ],
-});
+  modules: ['nuxt-icon']
+})

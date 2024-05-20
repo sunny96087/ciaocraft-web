@@ -1,6 +1,8 @@
 <script setup></script>
 <template>
-  <div></div>
+  <div>
+    <CiaoModal />
+  </div>
 </template>
 
 <style scoped></style>
