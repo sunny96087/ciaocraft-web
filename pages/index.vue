@@ -4,5 +4,4 @@
     <CiaoModal />
   </div>
 </template>
-
 <style scoped></style>
