@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
   <div>
-    <NuxtPage></NuxtPage>
+    <NuxtPage>test</NuxtPage>
   </div>
 </template>
