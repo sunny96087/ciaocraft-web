@@ -12,7 +12,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#EA580C'
+        'Primary-Orange': '#EA580C',
+        'Primary-Dark': '#E1580E',
+        'Primary-light': '#FA6C23',
+        'Orange-light': '#F59460',
+        'Orange-light-2': '#F8B490'
       }
     }
   },
