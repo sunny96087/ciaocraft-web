@@ -50,9 +50,11 @@ const toggleMenu = (): void => {
               <a href="#"><img src="~/assets/images/Button.svg" alt="我的收藏" /></a>
             </li>
             <li class="active:cursor-pointer" @click="toggleMenu">
-              <a href="#" class="relative"
-                ><img src="~/assets/images/Button(ham).svg" alt="側邊漢堡選單"
-              /></a>
+              <a href="#" class="relative block">
+                <div
+                  class="w-8 h-8 bg-center bg-[url('~/assets/images/Button(ham).svg')] hover:bg-[url('~/assets/images/Icon_new(ham).svg')]"
+                ></div>
+              </a>
             </li>
           </ul>
         </li>
