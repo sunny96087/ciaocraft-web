@@ -29,6 +29,7 @@ module.exports = {
     // TypeScript 特定的規則
     '@typescript-eslint/no-explicit-any': 'warn',
     // 解決 eslint 對 template 中只能有一個根元素問題
-    'vue/no-multiple-template-root': 'off'
+    'vue/no-multiple-template-root': 'off',
+    'vue/multi-word-component-names': 0
   }
 }
