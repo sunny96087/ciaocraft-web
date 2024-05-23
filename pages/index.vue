@@ -1,7 +1,14 @@
-<script setup></script>
 <template>
-  <div>
-    <CiaoModal />
-  </div>
+  <div></div>
 </template>
-<style scoped></style>
+
+<script setup>
+import { useRouter } from 'vue-router'
+import { onMounted } from 'vue'
+
+const router = useRouter()
+
+onMounted(() => {
+  router.push('/front')
+})
+</script>

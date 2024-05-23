@@ -16,7 +16,14 @@ export default {
         'Primary-Dark': '#E1580E',
         'Primary-light': '#FA6C23',
         'Orange-light': '#F59460',
-        'Orange-light-2': '#F8B490'
+        'Orange-light-2': '#F8B490',
+        'Secondary-Blue': '#255C99',
+        'Secondary-Dark': '#1C3FB7',
+        'Secondary-light': '#5284BC',
+        'Blue-light-2': '#5595DC',
+        'Blue-light-3': '#6BABF3',
+        'Blue-light-4': '#A1CEFF',
+        'Blue-light-5': '#E3E8FA'
       }
     }
   },
