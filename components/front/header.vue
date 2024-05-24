@@ -32,7 +32,9 @@ const toggleMenu = (): void => {
               <a href="#" class="py-2 px-6 hover:text-Primary-light">我要開課</a>
             </li>
             <li class="text-white pr-6">
-              <button class="bg-Primary-Orange hover:bg-Primary-light py-2 px-6">登入/註冊</button>
+              <button class="bg-Primary-Orange hover:bg-Primary-light py-2 px-6 rounded">
+                登入/註冊
+              </button>
             </li>
             <li class="pr-6">
               <a href="#"><img src="~/assets/images/Button.svg" alt="我的收藏" /></a>

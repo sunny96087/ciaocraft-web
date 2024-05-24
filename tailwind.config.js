@@ -23,7 +23,15 @@ export default {
         'Blue-light-2': '#5595DC',
         'Blue-light-3': '#6BABF3',
         'Blue-light-4': '#A1CEFF',
-        'Blue-light-5': '#E3E8FA'
+        'Blue-light-5': '#E3E8FA',
+        'Gray-1': '#F9FAFB',
+        'Gray-2': '#F3F4F6',
+        'Gray-3': '#E5E7EB',
+        'Gray-4': '#DEE2E6',
+        'Gray-5': '#CED4DA',
+        'Gray-6': '#CED4DA',
+        'Gray-7': '#CED4DA',
+        'Primary-Text': '#292524'
       }
     }
   },
