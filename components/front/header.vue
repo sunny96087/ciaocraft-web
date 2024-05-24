@@ -14,9 +14,9 @@ const toggleMenu = (): void => {
 </script>
 
 <template>
-  <div class="container mx-auto">
-    <div class="mx-9 md:mx-[100px]">
-      <ul class="flex justify-between items-center my-3.5 md:my-[30px]">
+  <div class="mx-9 lg:mx-[100px]">
+    <div class="max-w-screen-xl mx-auto">
+      <ul class="flex justify-between items-center my-3.5 lg:my-[30px]">
         <li>
           <h1>
             <a
@@ -26,7 +26,7 @@ const toggleMenu = (): void => {
             >
           </h1>
         </li>
-        <li class="hidden md:block">
+        <li class="hidden lg:block">
           <ul class="flex items-center">
             <li class="text-Primary-Orange pr-6">
               <a href="#" class="py-2 px-6 hover:text-Primary-light">我要開課</a>
@@ -46,7 +46,7 @@ const toggleMenu = (): void => {
             </li>
           </ul>
         </li>
-        <li class="md:hidden">
+        <li class="lg:hidden">
           <ul class="flex items-center">
             <li class="pr-6">
               <a href="#"><img src="~/assets/images/Button.svg" alt="我的收藏" /></a>
@@ -61,31 +61,18 @@ const toggleMenu = (): void => {
           </ul>
         </li>
       </ul>
-      <!-- 漢堡選單 -->
-      <!-- <ul
-      :class="[
-        'absolute w-5/6 transition-max-height overflow-hidden mt-5 mb-6 z-50',
-        { 'max-h-0': !isMenuOpen, 'max-h-full': isMenuOpen }
-      ]"
-    >
-      <li class="border-b border-[#AAAAAA]">
-        <a href="#" class="block p-2 pb-5 pl-5">登入/註冊</a>
-      </li>
-      <li class="mt-3"><a href="#" class="block py-2 pl-5">我要開課</a></li>
-      <li><a href="#" class="block py-2 pl-5">如何累積點數</a></li>
-    </ul> -->
     </div>
   </div>
   <!-- 漢堡選單 -->
   <div
     :class="[
-      'absolute w-screen container mx-auto bg-white',
+      'absolute top-[69px] w-full bg-white',
       { 'max-h-0': !isMenuOpen, 'max-h-full': isMenuOpen }
     ]"
   >
     <ul
       :class="[
-        'overflow-hidden top-[68px] mx-[60px]',
+        'overflow-hidden mx-[60px]',
         { 'max-h-0': !isMenuOpen, 'max-h-full': isMenuOpen, 'pt-5': isMenuOpen, 'pb-6': isMenuOpen }
       ]"
     >
