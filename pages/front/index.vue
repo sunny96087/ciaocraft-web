@@ -13,15 +13,33 @@ import About from '../../pages/front/about.vue'
   <div class="mx-5 lg:mx-[100px]">
     <div class="max-w-screen-xl mx-auto">
       <div class="mb-9">
-        <h2 class="text-3xl font-medium leading-[38px] mb-[30px]">單堂體驗課程</h2>
+        <div class="flex flex-row items-end mb-[30px]">
+          <h2 class="text-3xl font-medium leading-[38px] mr-5">單堂體驗課程</h2>
+          <a href="#" class="flex flex-row">
+            <p class="mr-1 text-Primary-Orange">更多</p>
+            <img src="~/assets/images/Icon(arrow).svg" alt="箭頭" />
+          </a>
+        </div>
         <ProductCard />
       </div>
       <div class="mb-9">
-        <h2 class="text-3xl font-medium leading-[38px] mb-[30px]">系統培訓課程</h2>
+        <div class="flex flex-row items-end mb-[30px]">
+          <h2 class="text-3xl font-medium leading-[38px] mr-5">系統培訓課程</h2>
+          <a href="#" class="flex flex-row">
+            <p class="mr-1 text-Primary-Orange">更多</p>
+            <img src="~/assets/images/Icon(arrow).svg" alt="箭頭" />
+          </a>
+        </div>
         <ProductCard />
       </div>
       <div class="mb-9">
-        <h2 class="text-3xl font-medium leading-[38px] mb-[30px]">你可能適合</h2>
+        <div class="flex flex-row items-end mb-[30px]">
+          <h2 class="text-3xl font-medium leading-[38px] mr-5">你可能適合</h2>
+          <a href="#" class="flex flex-row">
+            <p class="mr-1 text-Primary-Orange">更多</p>
+            <img src="~/assets/images/Icon(arrow).svg" alt="箭頭" />
+          </a>
+        </div>
         <ProductCard />
       </div>
       <div class="mb-9 text-Primary-Text">
