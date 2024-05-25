@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       // 兩端都能使用 -> $config.public
     }
   },
-  css: ['@/assets/css/main.css'],
+  css: ['~/assets/css/main.css'],
 
   postcss: {
     plugins: {
@@ -22,5 +22,5 @@ export default defineNuxtConfig({
       pathPrefix: false
     }
   ],
-  modules: ['nuxt-icon', 'nuxt-swiper']
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-icon', 'nuxt-swiper', '@pinia/nuxt']
 })
