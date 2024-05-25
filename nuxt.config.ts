@@ -22,5 +22,5 @@ export default defineNuxtConfig({
       pathPrefix: false
     }
   ],
-  modules: ['nuxt-icon']
+  modules: ['nuxt-icon', 'nuxt-swiper']
 })

@@ -4,18 +4,22 @@ import Footer from '../../components/front/Footer.vue'
 import ProductCard from '../../components/front/ProductCard.vue'
 
 import About from '../../pages/front/about.vue'
+import Filter from '../../pages/front/filter.vue'
 </script>
 
 <template>
   <div class="border-b border-[#DFE4EA]">
     <Header />
   </div>
+  <div class="rounded-xl border shadow-xl mb-[66px] mx-5 md:mx-10 lg:mx-[350px]">
+    <Filter />
+  </div>
   <div class="mx-5 lg:mx-[100px]">
     <div class="max-w-screen-xl mx-auto">
       <div class="mb-9">
-        <div class="flex flex-row items-end mb-[30px]">
+        <div class="flex items-end mb-[30px]">
           <h2 class="text-3xl font-medium leading-[38px] mr-5">單堂體驗課程</h2>
-          <a href="#" class="flex flex-row">
+          <a href="#" class="flex">
             <p class="mr-1 text-Primary-Orange">更多</p>
             <img src="~/assets/images/Icon(arrow).svg" alt="箭頭" />
           </a>
@@ -23,9 +27,9 @@ import About from '../../pages/front/about.vue'
         <ProductCard />
       </div>
       <div class="mb-9">
-        <div class="flex flex-row items-end mb-[30px]">
+        <div class="flex items-end mb-[30px]">
           <h2 class="text-3xl font-medium leading-[38px] mr-5">系統培訓課程</h2>
-          <a href="#" class="flex flex-row">
+          <a href="#" class="flex">
             <p class="mr-1 text-Primary-Orange">更多</p>
             <img src="~/assets/images/Icon(arrow).svg" alt="箭頭" />
           </a>
@@ -33,9 +37,9 @@ import About from '../../pages/front/about.vue'
         <ProductCard />
       </div>
       <div class="mb-9">
-        <div class="flex flex-row items-end mb-[30px]">
+        <div class="flex items-end mb-[30px]">
           <h2 class="text-3xl font-medium leading-[38px] mr-5">你可能適合</h2>
-          <a href="#" class="flex flex-row">
+          <a href="#" class="flex">
             <p class="mr-1 text-Primary-Orange">更多</p>
             <img src="~/assets/images/Icon(arrow).svg" alt="箭頭" />
           </a>
