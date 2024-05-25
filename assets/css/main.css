@@ -56,6 +56,11 @@ body {
   color: var(--color-text-primary);
 }
 
+/* 共用消樣式 */
+input:focus-visible {
+  outline: none;
+}
+
 /* todo 通用 */
 .pic-auto {
   width: 100%;
