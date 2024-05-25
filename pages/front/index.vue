@@ -2,6 +2,7 @@
 import Header from '../../components/front/Header.vue'
 import Footer from '../../components/front/Footer.vue'
 import ProductCard from '../../components/front/ProductCard.vue'
+import Search from '../../components/front/Search.vue'
 
 import About from '../../pages/front/about.vue'
 import Filter from '../../pages/front/filter.vue'
@@ -10,6 +11,9 @@ import Filter from '../../pages/front/filter.vue'
 <template>
   <div class="border-b border-[#DFE4EA]">
     <Header />
+  </div>
+  <div class="border rounded-[40px] mx-5 md:mx-[84px] lg:mx-[360px] mb-[30px]">
+    <Search />
   </div>
   <div class="rounded-xl border shadow-xl mb-[66px] mx-5 md:mx-10 lg:mx-[350px]">
     <Filter />

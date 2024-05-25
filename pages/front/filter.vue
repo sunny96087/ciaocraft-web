@@ -46,7 +46,6 @@ export default {
       :modules="modules"
       class="filterSwiper"
     >
-      <!-- mr-[30px] md:mr-5 -->
       <swiper-slide>
         <a href="#" class="hover:text-Primary-Orange">
           <img src="~/assets/images/Category_Img_1.svg" alt="單堂體驗icon" class="mb-3" />
