@@ -31,6 +31,6 @@ module.exports = {
     // 解決 eslint 對 template 中只能有一個根元素問題
     'vue/no-multiple-template-root': 'off',
     'vue/multi-word-component-names': 0,
-    'linebreak-style': ['off', 'windows']
+    'linebreak-style': ['error', 'lf']
   }
 }
